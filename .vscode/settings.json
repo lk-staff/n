@@ -1,0 +1,11 @@
+{
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    // eslint + prettier
+    "prettier.requireConfig": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    // volar
+    "volar.completion.preferredTagNameCase": "kebab"
+}
